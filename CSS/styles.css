@@ -1,29 +1,59 @@
+/*TAG*/
+a{
+    position: relative;
+    display: inline-block;
+    letter-spacing: 4px;
+    text-decoration: none;
+    color: #2196f3;
+    text-transform: uppercase;
+    overflow:hidden;
+    transition: 0.2s;
+}
+a:hover{
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3,
+    0 0 80px #2196f3;
+
+}
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgb(48, 48, 43);
+    
 }
 
+/*CLASS*/
+.container{
+    display: grid;
+    grid-template-columns: 12tr;
+    
+}
 .navbar{
-    background-color: rgb(238, 153, 179);
+    background: #031321;
+    font-family: 'Roboto';
 }
 
 .quem-sou{
-    background-color: rgb(50, 170, 50);
+    background-color: rgb(61, 83, 88);
     color: honeydew;
 }
 
 .margin{
-    margin-top: 20px; 
+    margin-top:0; 
+    padding: 20px; 
+    /*Modificação feita*/
     /*Aqui pode ser subtituido por padding-top: 30px; nesse caso, não sobrará espaço em branco como sobra 
     usando o margin top*/
 }
 
 .programação{
-    background-color: rgb(58, 163, 204);
+    background-color:rgb(61, 83, 88);
     color: honeydew;
 }
 
 .currículo{
-    background-color: rgb(160, 17, 17);
+    background-color: #031321;
+    ;
     color: honeydew;
 }
 
