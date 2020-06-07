@@ -1,0 +1,36 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar{
+    background-color: rgb(238, 153, 179);
+}
+
+.quem-sou{
+    background-color: rgb(50, 170, 50);
+    color: honeydew;
+}
+
+.margin{
+    margin-top: 20px; 
+    /*Aqui pode ser subtituido por padding-top: 30px; nesse caso, não sobrará espaço em branco como sobra 
+    usando o margin top*/
+}
+
+.programação{
+    background-color: rgb(58, 163, 204);
+    color: honeydew;
+}
+
+.currículo{
+    background-color: rgb(160, 17, 17);
+    color: honeydew;
+}
+
+.bg-footer{
+    color: honeydew;
+}
+
+.bg-nav{
+    color: honeydew;
+}
